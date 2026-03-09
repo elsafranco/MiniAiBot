@@ -29,3 +29,9 @@ This project highlights both the usefulness and limitations of generative AI. Wh
 2. Install dependencies:
    ```bash
    pip install streamlit google-genai python-dotenv
+3. Create a `.env` file in the project folder and add:
+   ```env
+   GOOGLE_API_KEY=your_api_key_here
+4. Run the app:
+   ```bash
+   streamlit run main.py
